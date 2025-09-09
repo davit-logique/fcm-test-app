@@ -12,7 +12,7 @@ export class FcmService {
 
   public requestPermission(): void {
     getToken(this.messaging, {
-      vapidKey: '<YOUR_VAPID_KEY>', // TODO: Add your VAPID key
+      vapidKey: 'BJE_w9fIMjGkzh-p_y6vdeJ6d9d1pQuNfPczxDmWJ1TBDG3n-nVIKcm_8fW2pZDB8naSnV1AKpT9d7AtrMOlWkE',
     })
       .then((currentToken) => {
         if (currentToken) {
